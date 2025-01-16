@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(45, 45, 45);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    padding: 2rem;
+    border-radius: 30px;
+    background: linear-gradient(120deg, #5ad2fa, #2e60a6);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.search{
+    width: 70%;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: aliceblue;
+}
+.search:focus{
+    outline: none;
+}
+button{
+    margin-left: 1rem;
+    width: 2.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.786);
+}
+.image{
+    padding:1rem 0 1rem 0;
+    text-align: center;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+}
+.temp{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+.location{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.humidity-wind{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+    gap: 2rem;
+}
+.humid-img, .wind-img{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.humidity img, .wind img{
+    width: 25px;
+    height: 25px;
+}
+.value{
+    color: white;
+    font-size: 1.5rem;
+}
+.text{
+    color: white;
+    font-size: 1rem;
+    padding-left: 28px;
+}
